@@ -1,0 +1,66 @@
+.inventory-container {
+    padding: 20px;
+}
+
+.inventory-controls {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 149, 255);
+    
+}
+:root {
+    --gap-size: 0.5rem;
+    --input-padding: 0.6rem 0.8rem;
+    --border-radius: 0.5rem;
+    --border-color: #e6e6e6;
+    --focus-color: #007bff;
+}
+
+.search-box,
+.threshold-box {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-size);
+    max-width: 300px;
+}
+
+.search-box input,
+.threshold-box input {
+    
+    padding: var(--input-padding);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    outline: none;
+    font-size: 0.95rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-box input:focus,
+.threshold-box input:focus {
+    border-color: var(--focus-color);
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+}
+.search-box input,
+.threshold-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.no-results {
+    color: #777;
+    font-style: italic;
+}

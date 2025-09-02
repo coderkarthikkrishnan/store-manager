@@ -1,0 +1,30 @@
+.sale-record-row td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sale-date {
+    color: #666;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.sale-items {
+    font-size: 14px;
+}
+
+.sale-total {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.sales-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sales-table th {
+    background: #eee;
+    padding: 10px;
+    text-align: left;
+}

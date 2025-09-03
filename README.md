@@ -12,6 +12,7 @@ Follow the steps below to set up and run the project locally.
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/coderkarthikkrishnan/store-manager.git
+cd Storemanager
 ```
 
 ### 2️⃣ Install Dependencies

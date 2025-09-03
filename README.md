@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# 🛒 React Inventory & Sales Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a **React-based web application** for managing inventory, sales, products, and cart functionalities.  
+It includes features like product catalog, add product, sales tracking, and toast notifications.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Getting Started
 
-### `npm start`
+Follow the steps below to set up and run the project locally.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/coderkarthikkrishnan/store-manager.git
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2️⃣ Install Dependencies
+Before running the app, install all required packages:
+```bash
+npm install
+```
 
-### `npm test`
+### 3️⃣ Required Packages
+Make sure the following packages are installed:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install react-router-dom react-toastify
+```
 
-### `npm run build`
+(If already installed, you can skip this step.)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4️⃣ Start the Development Server
+Run the app locally:
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This will start the app at 👉 `http://localhost:3000/`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📦 Main Dependencies
+- **React** – Frontend framework  
+- **React Router DOM** – For navigation and routing  
+- **React Toastify** – For toast notifications  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🗂 Project Structure
+```
+STORE-MANAGER/
+├── .idea/
+├── node_modules/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── Cart/
+│ │ │ ├── Cart.css
+│ │ │ ├── Cart.jsx
+│ │ │ └── CartItem.jsx
+│ │ ├── Inventory/
+│ │ │ ├── Inventory.css
+│ │ │ ├── Inventory.jsx
+│ │ │ ├── Product.css
+│ │ │ └── Product.jsx
+│ │ ├── Product/
+│ │ │ ├── CustomToast.jsx
+│ │ │ ├── Product.jsx
+│ │ │ ├── ProductCard.css
+│ │ │ ├── ProductCatalog.css
+│ │ │ ├── ProductCatalog.jsx
+│ │ │ ├── ProductList.css
+│ │ │ └── ProductList.jsx
+│ │ └── Sales/
+│ │ ├── AddProduct.css
+│ │ ├── AddProduct.jsx
+│ │ ├── SaleRecord.css
+│ │ ├── SaleRecord.jsx
+│ │ ├── Sales.css
+│ │ └── Sales.jsx
+│ ├── cartimg.png
+│ ├── Footer.css
+│ ├── Footer.jsx
+│ ├── NavBar.css
+│ ├── NavBar.jsx
+│ ├── App.css
+│ ├── App.js
+│ ├── App.test.js
+│ ├── index.css
+│ ├── index.js
+│ ├── logo.svg
+│ ├── reportWebVitals.js
+│ └── setupTests.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── Readme.docx
+└── README.md
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠 Scripts
+- `npm start` – Runs the app in development mode
+- `npm run build` – Builds the app for production
+- `npm test` – Runs test cases
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📌 Notes
+- Ensure **Node.js v16+** and **npm v8+** are installed.  
+- If you face dependency errors, try deleting `node_modules` and `package-lock.json` then run:
+  ```bash
+  npm install
+  ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ✅ Author
+👨‍💻 Developed by **Karthik Krishnan GS**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---

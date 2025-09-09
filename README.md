@@ -116,7 +116,7 @@ STORE-MANAGER/
   ```
 
 ---
-
+Read documentation for more information
 ## ✅ Author
 👨‍💻 Developed by **Karthik Krishnan GS**
 
